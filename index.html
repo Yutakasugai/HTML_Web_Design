@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Website Navbar</title>
+</head>
+<body>
+    <!-- Create a main menu with an activated bars -->
+    <div class="nav-container">
+        <nav class="navbar">
+            <h1 id="navbar-logo">LUXCO</h1>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-links">Home</a></li>
+                <li><a href="#" class="nav-links">Services</a></li>
+                <li><a href="#" class="nav-links">About Us</a></li>
+                <li><a href="#" class="nav-links">Contact Us</a></li>
+                <li><a href="#" class="nav-links nav-links-btn">Sign Up</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Add some designs in the main page -->
+    <div class="main">
+        <div class="main-container">
+            <div class="main-content">
+                <h1>Skyrocket your results</h1>
+                <p>LUXCO allows you to fully automate your business 
+                    so you can focus on what's important
+                </p>
+                <button class="main-btn"><a href="#">
+                    Get Started</a></button>
+            </div>
+
+            <div class="main-img-container">
+                <img src="images/pic1.svg" alt="" id="main-img">
+            </div>
+        </div>
+    </div>
+
+    <!-- Create an email signup form popup modal -->
+    <div class="modal" id="email-modal">
+
+        <!-- This is a class for all of this modal functions -->
+        <div class="modal-content">
+
+            <!-- This is to close the SignUp page by clicking anywhere on the main page -->
+            <span class="close-btn">&times;</span>
+
+            <div class="modal-content-left">
+                <img id="modal-img" src="images/pic2.svg" alt="">
+            </div>
+
+            <div class="modal-content-right">
+                <form action="/" method="GET" class="modal-form" id="form">
+                <h1>Get started with us today! 
+                    Create your account by filling out the information below.</h1>
+                
+                <!-- Get an input from the user -->
+                <div class="form-validation">
+                    <input type="text" class="modal-input" id="name" name="name" placeholder="Enter your name">
+                    <p>Error Message</p>
+                </div>
+
+                <div class="form-validation">
+                    <input type="email" class="modal-input" id="email" name="email" placeholder="Enter your email">
+                    <p>Error Message</p>
+                </div>
+
+                <div class="form-validation">
+                    <input type="password" class="modal-input" id="password" name="password" placeholder="Enter your password">
+                    <p>Error Message</p>
+                </div>
+
+                <div class="form-validation">
+                    <input type="password" class="modal-input" id="password-confirm" name="password" placeholder="Confirm your password">
+                    <p>Error Message</p>
+                </div>
+                <input type="submit" class="modal-input-btn" value="Sign Up">
+                <span class="modal-input-login">Already have an account? Login <a href="#">here</a></span>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Gallery -->
+
+    <div class="service-section">
+        <div class="services-heading">
+            <h1>Check our sevices below!</h1>
+        </div>
+
+        <div class="services">
+            <div class="services-cell">
+                <img src="gallery/img-1.jpg" alt="" class="services-cell_img">
+                <div class="services-cell_text">Digital Marketing</div>
+            </div>
+
+            <div class="services-cell">
+                <img src="gallery/img-2.jpg" alt="" class="services-cell_img">
+                <div class="services-cell_text">Website Development</div>
+            </div>
+
+            <div class="services-cell">
+                <img src="gallery/img-3.jpg" alt="" class="services-cell_img">
+                <div class="services-cell_text">Videography</div>
+            </div>
+
+            <div class="services-cell">
+                <img src="gallery/img-4.jpg" alt="" class="services-cell_img">
+                <div class="services-cell_text">Photography</div>
+            </div>
+
+            <div class="services-cell">
+                <img src="gallery/img-5.jpg" alt="" class="services-cell_img">
+                <div class="services-cell_text">Consulting</div>
+            </div>
+
+            <div class="services-cell">
+                <img src="gallery/img-6.jpg" alt="" class="services-cell_img">
+                <div class="services-cell_text">SEO</div>
+            </div>
+
+            <div class="services-cell">
+                <img src="gallery/img-7.jpg" alt="" class="services-cell_img">
+                <div class="services-cell_text">Graphic Design</div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Create a footer at the bottom line -->
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-heading footer-1">
+                <h2>Abount Us</h2>
+                <a href="#">Blog</a>
+                <a href="#">Demo</a>
+                <a href="#">Customers</a>
+                <a href="#">Invester</a>
+                <a href="#">Terms of Services</a>
+            </div>
+            <div class="footer-heading footer-2">
+                <h2>Contact Us</h2>
+                <a href="#">Jobs</a>
+                <a href="#">Support</a>
+                <a href="#">Contact</a>
+                <a href="#">Sponserships</a>
+            </div>
+            <div class="footer-heading footer-3">
+                <h2>Social Media</h2>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Youtube</a>
+                <a href="#">Twitter</a>
+            </div>
+
+            <div class="footer-email-form">
+                <h2>Join our newsletter</h2>
+                <input type="email" placeholder="Enter your email addresss"id="footer-email">
+                <input type="submit" value="Sign Up" id="footer-email-btn">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
